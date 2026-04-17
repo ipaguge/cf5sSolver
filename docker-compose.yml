@@ -1,0 +1,13 @@
+services:
+  bypass:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: bypass
+    environment:
+      - LOG_LEVEL=debug
+    ports:
+      - "8901:8901"
+    volumes:
+      - ./flare5sBypass_linux_arm64:/flare5sBypass
+    restart: unless-stopped
