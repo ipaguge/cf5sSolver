@@ -40,7 +40,7 @@
 
 ## 🚀 快速开始
 
-> **环境要求：** 已安装 Docker 及 Docker Compose，**目前仅支持 Linux 环境运行 需要注意的是并行数量最好是不要超过CPU线程数**。
+> **环境要求：** 已安装 Docker 及 Docker Compose，**需要注意的是并行数量最好是不要超过CPU线程数**。
 
 ```bash
 # 1. 克隆项目
