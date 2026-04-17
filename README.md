@@ -44,10 +44,10 @@
 
 ```bash
 # 1. 克隆项目
-git clone https://xxx.xxxx
+git clone https://github.com/ipaguge/cf5sSolver.git
 
 # 2. 进入目录并启动服务
-cd xxxx && docker compose up -d
+cd cf5sSolver && docker compose up -d
 ```
 
 服务启动后默认监听 `http://localhost:8901`。
